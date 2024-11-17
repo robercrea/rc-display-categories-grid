@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "rc-dcg/categories",
+    "title": "",
+    "category": "rc-dcg-blocks",
+    "icon": "screenoptions",
+    "attributes": {
+        "option"  : {"type" : "string",   "default" : "category"}
+    },
+    "editorScript": "file:./block.js"
+}

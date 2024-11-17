@@ -1,0 +1,162 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Display Categories and Tags Grid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-17 13:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: rc-dcg"
+
+#: lib/admin/menu/fields.php:285
+msgid "3 columns"
+msgstr ""
+
+#: lib/admin/menu/fields.php:290
+msgid "4 columns"
+msgstr ""
+
+#: lib/admin/menu/fields.php:295
+msgid "5 columns"
+msgstr ""
+
+#: lib/admin/menu/fields.php:172
+msgid "Card Background Color"
+msgstr ""
+
+#: lib/admin/menu/fields.php:198
+msgid "Card Text background Color"
+msgstr ""
+
+#: lib/admin/menu/fields.php:211
+msgid "Card Text Background Hover Color"
+msgstr ""
+
+#: lib/admin/menu/fields.php:185
+msgid "Card Text Color"
+msgstr ""
+
+#: lib/admin/menu/sections.php:25
+msgid "Categories and Tags You Want to Hide"
+msgstr ""
+
+#: lib/admin/menu/register.php:26
+msgid "Categories Grid"
+msgstr ""
+
+#: lib/blocks/blocks.php:37
+msgid "DCG Blocks"
+msgstr ""
+
+#. Name of the plugin
+msgid "Display Categories and Tags Grid"
+msgstr ""
+
+#: lib/admin/menu/register.php:25 lib/admin/menu/register.php:37
+#: lib/admin/menu/pages/inc/header.php:17
+msgid "Display Categories Grid"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Display the categories and tags from posts or products on a grid in your "
+"website."
+msgstr ""
+
+#: lib/admin/menu/sections.php:33
+msgid "Edit Style"
+msgstr ""
+
+#: lib/admin/menu/register.php:48
+msgid "Edit Styles"
+msgstr ""
+
+#: lib/admin/menu/fields.php:224
+msgid "Font Size"
+msgstr ""
+
+#: lib/admin/menu/register.php:38
+msgid "Hide Categories"
+msgstr ""
+
+#: lib/admin/menu/fields.php:155
+msgid "Horizontal Space"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://robercrea.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://robercrea.com/plugins-wordpress/display-categories-grid/"
+msgstr ""
+
+#: lib/admin/menu/fields.php:60
+msgid "Post Categories to Hide"
+msgstr ""
+
+#: lib/admin/menu/fields.php:74
+msgid "Post Tags to Hide"
+msgstr ""
+
+#: lib/admin/menu/fields.php:93
+msgid "Product Categories to Hide"
+msgstr ""
+
+#: lib/admin/menu/fields.php:107
+msgid "Product Tags to Hide"
+msgstr ""
+
+#: lib/admin/menu/pages/inc/footer.php:23
+msgid "Report Bug/Leave Comment"
+msgstr ""
+
+#. Author of the plugin
+msgid "Rober Crea"
+msgstr ""
+
+#: lib/admin/support/image-support.php:61
+msgid "Select Image"
+msgstr ""
+
+#: lib/admin/menu/fields.php:126
+msgid "Select Layout"
+msgstr ""
+
+#: lib/admin/menu/register.php:47
+msgid "Style Editor"
+msgstr ""
+
+#: lib/admin/menu/pages/inc/footer.php:21
+msgid "to discover more plugins!"
+msgstr ""
+
+#: lib/admin/support/image-support.php:39
+msgid "Upload an image for this category."
+msgstr ""
+
+#: lib/admin/menu/fields.php:139
+msgid "Vertical Space"
+msgstr ""
+
+#: lib/admin/menu/pages/inc/footer.php:19
+msgid "Visit"
+msgstr ""
+
+#: lib/blocks/build/callbacks.php:24
+msgid "WooCommerce is not installed or activated"
+msgstr ""
+
+#: lib/admin/menu/pages/config-page.php:16
+msgid ""
+"You can display the categories or tags using the <strong>GUTENBERG "
+"BLOCK</strong>."
+msgstr ""

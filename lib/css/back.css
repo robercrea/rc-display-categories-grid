@@ -1,0 +1,16 @@
+/* -wp-block is used to allow wp load the css inside gutenberg editor */
+.wp-block {
+}
+/*-----------------*/
+
+.rc-dcg-block-editor-title {
+    color: #00abe4;
+    margin-bottom: 10px;
+}
+
+.rc-dcg-block-editor-wrap {
+    padding: 5px 15px;
+    border: 1px dashed #333 !important;
+    display: inline-block;
+    width: -moz-available;
+}

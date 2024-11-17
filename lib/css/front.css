@@ -1,0 +1,50 @@
+.rc-dcg-categories {
+    display: grid;
+    width: 100%;
+    align-items: end;
+    gap: var(--rc-dcg-cards-gap-v) var(--rc-dcg-cards-gap-h);
+}
+
+.rc-dcg-category {
+    background-color: var(--rc-dcg-card-bg-color);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: var(--rc-dcg-card-text-color);
+    font-size: var(--rc-dcg-card-font-size);
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.rc-dcg-category span {
+    transition: all 0.35s ease-in-out;
+    background-color: var(--rc-dcg-card-text-bg-color);
+    color: var(--rc-dcg-card-text-color);
+    padding: 5px;
+}
+
+.rc-dcg-category img {
+    margin: 0 auto;
+}
+
+.rc-dcg-category:hover span {
+    background-color: var(--rc-dcg-card-hover-text-bg-color);
+}
+
+@media only screen and (min-width: 360px) {
+    .rc-dcg-categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .rc-dcg-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1270px) {
+    .rc-dcg-categories {
+        grid-template-columns: repeat(var(--rc-dcg-cards-columns), 1fr);
+    }
+}

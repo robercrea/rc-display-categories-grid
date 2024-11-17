@@ -1,0 +1,164 @@
+/* Rober Crea Admin Standard CSS */
+
+.robercrea-admin {
+    --text-color: #122135;
+    --section-bg-color: #ffffff;
+    --accent-color: #00abe4;
+    --accent-text-color: #ffffff;
+    --box-shadow: rgba(35, 100, 210, 0.15) 0 25px 20px -20px;
+}
+
+/* General */
+
+.robercrea-admin {
+    padding: 30px 30px 30px 0;
+}
+
+.robercrea-admin a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.robercrea-admin a:hover {
+    text-decoration: underline;
+}
+
+.robercrea-admin section {
+    background-color: var(--section-bg-color);
+    padding: 30px;
+    margin: 0 0 20px 0;
+    box-shadow: var(--box-shadow);
+    max-width: 900px;
+}
+
+.robercrea-admin header section,
+.robercrea-admin footer section {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 25px;
+}
+
+.robercrea-admin header #h_logo {
+    max-width: 25px;
+}
+
+.robercrea-admin header h1 {
+    padding: 0;
+}
+
+.robercrea-admin header #bmac {
+    max-width: 125px;
+}
+
+.robercrea-admin header #bmac:hover {
+    box-shadow: 0 10px 20px 0 rgba(35, 100, 210, 0.2);
+}
+
+.robercrea-admin footer {
+    font-style: italic;
+}
+
+.robercrea-admin footer img {
+    max-width: 35px;
+}
+
+/* Input */
+
+.robercrea-admin .button-primary,
+.robercrea-admin .offbtn {
+    padding: 8px 30px;
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px 0 rgba(35, 100, 210, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.robercrea-admin .button-primary:hover,
+.robercrea-admin .offbtn:hover {
+    background-color: var(--accent-text-color);
+    color: var(--accent-color);
+}
+
+.robercrea-admin .offbtn {
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #eeeeee;
+    color: #808080;
+    text-transform: capitalize;
+}
+
+.robercrea-admin .rc-range-label {
+    padding: 0 10px 12px;
+    font-weight: 700;
+}
+
+.robercrea-admin span.selection > span {
+    padding: 7px;
+}
+
+.robercrea-admin img.radio {
+    width: 35px;
+}
+
+/* Grid */
+.robercrea-admin .rc-grid-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+.robercrea-admin .rc-grid-3col label {
+    display: grid;
+    text-align: center;
+    gap: 3px;
+}
+
+.robercrea-admin .rc-grid-3col input,
+.robercrea-admin .rc-grid-3col img {
+    margin: 0 auto;
+}
+
+/* Notification */
+
+.robercrea-admin .notification {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 0 10px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+
+.robercrea-admin .notification * {
+    margin: 0;
+}
+
+.robercrea-admin .notification.notification-success {
+    background-color: #ddf9df;
+    border-color: #c5d6cb;
+}
+
+.robercrea-admin .notification.notification-error {
+    border-color: #e08d8d;
+    background-color: #ffdbdb;
+}
+
+.robercrea-admin .notification.notification-info {
+    border-color: #eccd6f;
+    background-color: #ffeeba;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1180px) {
+    .robercrea-admin {
+        padding: 30px 15px 30px 0;
+    }
+    .robercrea-admin section {
+        grid-template-columns: 1fr;
+    }
+}
